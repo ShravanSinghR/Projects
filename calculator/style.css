@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+*{
+    background-color: black;
+}
+
+
+.text{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Rampart One', cursive;
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+.cal{
+    border: 2px solid white;
+    align-items: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.one{
+    font-size: 10px;
+    width: 60px;
+}
+
+
+.in{
+    margin-left: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
+
+.mx-auto{
+    margin: auto;
+}
+
+
+
+
+.button{
+    padding: 20px;
+
+    
+    border-radius: 35px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 25px;
+
+}
+
+
+.row{
+    margin: 10px 0;
+}
+
+
+
+.row input{
+    padding: 4px;
+    width: 210px;
+    background-color: white;
+}
+
+
+
+.new{
+    width: 70px;
+}
+
+
+
+.last{
+    width: 70px;
+
+}
+
+
+.bl{
+    background-color: grey;
+    
+}
+
+.grr{
+    background-color: darkgrey;
+}
+
+.orr{
+    background-color: orange;
+}

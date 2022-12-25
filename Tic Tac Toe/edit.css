@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@500&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style-type:none;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 35px;
+   
+}
+
+nav ul li{
+    background-color: cornflowerblue;
+}
+
+nav{
+    background-color: cornflowerblue;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gamecontainer{
+ 
+
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Edu VIC WA NT Beginner', cursive;       
+    cursor: pointer; 
+
+
+}
+
+
+.box{
+    border: 2px solid black;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.box:hover{
+
+    background-color: aquamarine;
+
+}
+
+
+.gameinfo{
+    padding: 70px;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 25px;
+}
+
+
+.image img{
+    width: 0;
+    transition: width 1s ease-in-out;
+
+}
+
+
+.br-0{
+    border-right: 0;
+}
+
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+
+#reset{
+    margin: 0 25px;
+    padding: 1px 10px;
+    background: rgb(206, 120, 206);
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+
+
+@media screen and (max-width : 800px)  
+{
+   .gamecontainer{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
